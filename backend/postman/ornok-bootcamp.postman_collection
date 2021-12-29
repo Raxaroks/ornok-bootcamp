@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "f969ee57-6e71-4d42-967c-b43450edab0b",
+		"name": "ORNOK-BOOTCAMP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "backend",
+			"item": [
+				{
+					"name": "test",
+					"item": [
+						{
+							"name": "HelloWorld",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/api/test/hello?content=sacker es bien joto y lento",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"test",
+										"hello"
+									],
+									"query": [
+										{
+											"key": "content",
+											"value": "sacker es bien joto y lento"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "reqres",
+					"item": [
+						{
+							"name": "Get list of users from an external API",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/api/reqres/list-users?pageNumber=2",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"reqres",
+										"list-users"
+									],
+									"query": [
+										{
+											"key": "pageNumber",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
